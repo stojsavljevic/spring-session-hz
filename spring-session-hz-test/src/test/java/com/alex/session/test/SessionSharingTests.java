@@ -84,7 +84,7 @@ public class SessionSharingTests {
 		for (int i = 0; i < EXECUTIONS_NO; i++) {
 			testRaceConditions += testRaceConditions();
 		}
-		LOGGER.info("ALL LASTED: {}ms", testRaceConditions / EXECUTIONS_NO);
+		LOGGER.info("AVERAGE EXECUTION TIME: {}ms", testRaceConditions / EXECUTIONS_NO);
 	}
 
 	// @Test
